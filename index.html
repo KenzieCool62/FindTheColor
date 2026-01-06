@@ -1,0 +1,40 @@
+<html>
+    <title> Find The Color </title>
+        <link id="pagestyle" rel="stylesheet" type="text/css" href="lightmode.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <script src="scripts.js"></script>
+    <body>
+        <header>
+            <h1 style="font-weight: normal;"> Find The Disc<span style="color: rgb(130, 130, 130);">o</span>lored Pixel </h1>
+        </header>
+        <section>
+                <div class="squareGrid">
+                    <button class='colorBtn' id='1' onclick='squareClick(1)' style="background-color: rgb(142, 142, 142);"></button>
+                    <button class='colorBtn' id='2' onclick='squareClick(2)'></button>
+                    <button class='colorBtn' id='3' onclick='squareClick(3)'></button>
+                    <button class='colorBtn' id='4' onclick='squareClick(4)'></button>
+                    <button class='colorBtn' id='5' onclick='squareClick(5)'></button>
+                    <button class='colorBtn' id='6' onclick='squareClick(6)'></button>
+                    <button class='colorBtn' id='7' onclick='squareClick(7)'></button>
+                    <button class='colorBtn' id='8' onclick='squareClick(8)'></button>
+                    <button class='colorBtn' id='9' onclick='squareClick(9)'></button>
+                    <button class='colorBtn' id='10' onclick='squareClick(10)'></button>
+                    <button class='colorBtn' id='11' onclick='squareClick(11)'></button>
+                    <button class='colorBtn' id='12' onclick='squareClick(12)'></button>
+                    <button class='colorBtn' id='13' onclick='squareClick(13)'></button>
+                    <button class='colorBtn' id='14' onclick='squareClick(14)'></button>
+                    <button class='colorBtn' id='15' onclick='squareClick(15)'></button>
+                    <button class='colorBtn' id='16' onclick='squareClick(16)'></button>
+                    <!-- 13 - 76 -->
+                </div>
+                <br>
+                <div align="center">
+                    <label id="strkLabel">Streak: 0 | </label><label id="timeLabel">Time: 0ms</label><br>
+                    <label id="avgLabel">Avg Time: 0ms</label><br><br>
+                    <button id="resetBtn" onclick="reset()">Reset</button><br>
+                    <button id="modeBtn" onclick="switchTheme()">Dark Mode</button>
+                </div>
+        </section>
+    </body>
+</html>
