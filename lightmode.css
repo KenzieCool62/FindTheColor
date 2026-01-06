@@ -2,8 +2,8 @@ body {
 
     display: flex;
     flex-direction: column;
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
@@ -23,10 +23,10 @@ section {
 .squareGrid {
 
     display: grid;
-    grid-template-columns: repeat(4, 100px); 
-    grid-template-rows: repeat(4, 100px);
-    width: 400px;
-    height: 400px;
+    grid-template-columns: repeat(4, 90px); 
+    grid-template-rows: repeat(4, 90px);
+    width: 360px;
+    height: 360px;
     align-self: center;
     align-items: center;
     justify-content: center;
@@ -35,8 +35,8 @@ section {
 
 .colorBtn {
 
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background-color: gray;
     border: none;
 
